@@ -7,22 +7,18 @@ A node that allows you to combine two images with a built in image resize functi
 
 2. Find the "custom_nodes" folder within the ComfyUI directory. If it doesn't exist, create one.
 
-3. Create a new folder within "custom_nodes" for this specific node. You could name it something like "image_resize_and_blend_node".
+3. Create a new folder within "custom_nodes" for this specific node. You could name it something like "ComfyUI_Image_Resize_And_Blend_Node".
 
-4. Create a new Python file in this folder. You can name it "image_resize_and_blend_node.py".
+4. Save the Python file in this folder from the repo. You can name it "image_resize_and_blend_node.py".
 
-5. Copy the entire code from the artifact I provided earlier and paste it into this new Python file.
-
-6. Save the file.
-
-7. If ComfyUI is running, restart it. If it's not running, start it as you normally would.
+5. If ComfyUI is running, restart it. If it's not running, start it as you normally would.
 
 Here's a step-by-step breakdown:
 
 ```
 ComfyUI/
 ├── custom_nodes/
-│   └── image_resize_and_blend_node/
+│   └── ComfyUI_Image_Resize_And_Blend_Node/
 │       └── image_resize_and_blend_node.py
 ├── ...
 ```
