@@ -5,7 +5,7 @@ This custom node for ComfyUI allows you to resize and blend two images of differ
 
 1. Clone this repository into your `ComfyUI/custom_nodes/` directory:
    ```
-   git clone https://github.com/JeffJag-ETH/Resize-and-Blend/
+   git clone https://github.com/JeffJag-ETH/Resize-and-Blend.git
    ```
 2. Install the required dependencies:
    ```
