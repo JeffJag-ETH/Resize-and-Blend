@@ -1,4 +1,4 @@
-# Image-Resize-and-Blend
+# Resize-and-Blend by JeffJag
 A node that allows you to combine two images with a built in image resize function so they are both resized to the dimensions you prefer before applying the blend mode of choice at the opacity of choice.
 
 # To install this custom node manually in ComfyUI, follow these steps:
