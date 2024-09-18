@@ -1,34 +1,30 @@
 # Resize-and-Blend by JeffJag
-A node that allows you to combine two images with a built in image resize function so they are both resized to the dimensions you prefer before applying the blend mode of choice at the opacity of choice.
+This custom node for ComfyUI allows you to resize and blend two images of different sizes then combine the Image Top over the Image Bottom using various blending modes. Many thanks to WASasquatch for their work on WAS Suite.
 
-# To install this custom node manually in ComfyUI, follow these steps:
+## Installation
 
-1. Locate your ComfyUI installation directory.
+1. Clone this repository into your `ComfyUI/custom_nodes/` directory:
+   ```
+   git clone https://github.com/your-username/your-repo-name.git
+   ```
+2. Install the required dependencies:
+   ```
+   pip install -r requirements.txt
+   ```
 
-2. Find the "custom_nodes" folder within the ComfyUI directory. If it doesn't exist, create one.
+## Usage
 
-3. Create a new folder within "custom_nodes" for this specific node. You could name it something like "ComfyUI_Image_Resize_And_Blend_Node".
+After installation, the "Resize and Blend" node will be available in the ComfyUI interface under the "image/processing" category.
 
-4. Save the Python file in this folder from the repo. You can name it "image_resize_and_blend_node.py".
+## Parameters
 
-5. If ComfyUI is running, restart it. If it's not running, start it as you normally would.
+- Image_Top: The top image for blending
+- Image_Base: The base image for blending
+- Resize_Width: Width to resize images to
+- Resize_Height: Height to resize images to
+- Supersample: Whether to use supersampling
+- Resample: Resampling method
+- Blending_Mode: The blending mode to use
+- Blend_Percentage: The percentage of blending to apply
 
-Here's a step-by-step breakdown:
-
-```
-ComfyUI/
-├── custom_nodes/
-│   └── ComfyUI_Image_Resize_And_Blend_Node/
-│       └── image_resize_and_blend_node.py
-├── ...
-```
-
-After following these steps, the next time you start ComfyUI, it should automatically detect and load the new custom node. You should see "Image Blend" available in the node menu when you're creating your workflows.
-
-If you encounter any issues:
-
-1. Check the ComfyUI console output for any error messages related to loading custom nodes.
-2. Verify that the file is in the correct location and has the correct name.
-3. Ensure that the Python file contains the complete code, including the `NODE_CLASS_MAPPINGS` and `NODE_DISPLAY_NAME_MAPPINGS` at the end.
-
-Remember, you'll need to restart ComfyUI each time you make changes to the custom node file for the changes to take effect.
+## License
