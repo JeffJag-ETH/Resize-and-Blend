@@ -16,6 +16,10 @@ This custom node for ComfyUI allows you to resize and blend two images of differ
 
 After installation, the "Resize and Blend" node will be available in the ComfyUI interface under the "image/processing" category.
 
+Use the included workflow json if you wish.
+
+![Resize and Blend example](https://github.com/user-attachments/assets/5d8108fb-6de2-4dad-bab9-d10217928bcb)
+
 ## Parameters
 
 - Image_Top: The top image for blending
