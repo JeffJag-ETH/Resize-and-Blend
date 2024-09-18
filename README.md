@@ -28,3 +28,4 @@ After installation, the "Resize and Blend" node will be available in the ComfyUI
 - Blend_Percentage: The percentage of blending to apply
 
 ## License
+GNU GENERAL PUBLIC LICENSE - Version 3, 29 June 2007
